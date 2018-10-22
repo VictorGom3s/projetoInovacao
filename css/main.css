@@ -1,4 +1,4 @@
-html{
+body{
     border: 0;
 }
 
@@ -7,7 +7,6 @@ html{
     color: white;
     text-align: center;
     padding: 10px;
-    
 }
 
 #conteudo{
@@ -44,8 +43,8 @@ nav{
 }
 
 img{
-    width: 1000px;
-    height: 500px;
+    width: 900px;
+    height: 400px;
 }
 
 .h3{
