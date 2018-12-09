@@ -1,10 +1,24 @@
 html, body {
     height: 100%;
 }
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Divisor de seçoes */
+#divisor{
+    background-color: indianred;
+    border: 3px solid indianred;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 /* ------------------ menu cabecalho ------------------*/
 #menu{
-    box-sizing: border-box;
     width: 100%;
     height: 77px;
     line-height: 120%;
@@ -37,10 +51,37 @@ html, body {
 
 /* ------------------------------------------------------------------------------ */
 
-#geral{
+#banner{
     min-height: 100%;
     position: relative;
-    width: 900px;
+    width: 100%;
+}
+
+#banner img{
+    height: 400px;
+    position: relative;    
+}
+
+/* About */
+
+#about{
+    text-align: center;
+}
+
+#imgAbout{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* Game */
+
+#imgGame{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 #rodape{
@@ -48,12 +89,13 @@ html, body {
     width: 100%;
     height: 69px;
     position: absolute;
+    margin-bottom: 0;
 }
 
 #rodape p{
     color: white;
-    float: left;
-    padding: 0 1em 0 2em;
-    line-height: 430%;
+    line-height: 69px;
     bottom: 0;
+    text-align: center;
+    margin-bottom: 0;
 }
